@@ -1,0 +1,183 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.navbar {
+  font-size: 20px;
+  padding: 1.5rem;
+  padding-left: 5rem;
+}
+
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.jumbotron {
+  padding: 8rem;
+  background-color: #f8f0e5;
+}
+
+#home img{
+  box-shadow: -1px 2px 21px 1px rgba(0,0,0,0.6);
+  margin: 2rem;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #102c57;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #102c57;
+  font-weight: bolder;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+li {
+  text-align: left;
+}
+
+#achievement h1 {
+  padding-top: 7rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+#achievement .card{
+  border: 0;
+}
+
+#achievement .card-title{
+  font-size: 14px;
+}
+
+#achievement img{
+  box-shadow: -11px 11px 25px -8px rgba(0,0,0,1);
+}
+
+#top .card{
+  box-shadow:  -8px 11px 10px -9px rgba(0,0,0,0.3);
+}
+
+#contact {
+  padding-top: 2rem;
+}
+
+.modal p {
+  margin: 0;
+}
+
+.modal ul {
+  margin: 0;
+}
+
+.navbar-nav li:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: #102c57;
+  color: #dac0a3;
+  box-shadow:  -8px 11px 10px -9px rgba(0,0,0,0.3);
+}
+
+.btn:hover{
+  background-color: #102c57;
+  color: #dac0a3;
+  opacity: 65%;
+}
+
+.cancel .btn{
+  background-color: #ffffff;
+  color: #102c57;
+  border-color: #102c57;
+  box-shadow:  -8px 11px 10px -9px rgba(0,0,0,0.3);
+}
+
+.cancel .btn:hover{
+  background-color: #ffffff;
+  color: #102c57;
+  opacity: 65%;
+}
+
+.regis {
+  margin: 9rem;
+}
+
+#IdolGroup .card img{
+  border-radius: 1000px;
+  box-shadow: -11px 11px 25px -8px rgba(0,0,0,1);
+  border-width: 1rem;
+  border-color: #dac0a3;
+  border-style: outset;
+}
+
+#IdolGroup #logo img{
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+#IdolGroup .card{
+  border: 0;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+}
+
+#IdolGroup h1{
+  color: #aa7c48 !important;
+  font-size: 80px;
+  text-shadow: -8px 8px 15px #dac0a3;
+  text-decoration: none;
+}
+
+.join p{
+  font-size: 45px;
+  font-weight: bolder;
+  line-height: 3rem;
+  color: #aa7c48;
+}
+
+.TopIdol h1{
+  padding-top: 8rem;
+  text-decoration: none;
+}
+
+.dropdown-item{
+  color: #102c57;
+}
+
+.dropdown-item:hover{
+  color: #102c57;
+  background-color: #f8f0e5;
+}
+
+.dropdown-item:active{
+  background-color: #dac0a3;
+  color: #102c57;
+}
+
+.modal img{
+  border-radius: 1rem;
+  border-color: #f8f0e5;
+  border-width: 10px;
+  border-style: double;
+}
+
+#idol p{
+  text-align: justify;
+}
+
+.modal .award{
+  margin-top: 1rem;
+}
+
+footer p{
+  text-align: center !important;
+}

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JS Town</title>
+  <link href="css/bootstrap.css" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg justify-content-center shadow-lg fixed-top" style="background-color: #EADBC8;">
+    <img src="Image/logo web profile.png" alt="logo jstown" width="32">
+    <div class="container">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" href="index.html#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html#achievement">Achievement</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Idol
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index.html#top">Top 3 Idol</a></li>
+              <li><a class="dropdown-item" href="idol.html">Idol Groups</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Jumbotron -->
+  <section id="home">
+    <div class="jumbotron text-center ">
+      <!-- Carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Image/award6.jpg" style="max-width: 75%;" height="auto" alt="Awarde">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Excellence in Talent Management Award (2019)</h5>
+              <p>This award celebrates the company's exceptional practices in attracting, developing, and retaining top
+                talent. It
+                recognizes their effective strategies in nurturing a skilled and motivated workforce.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Image/award9.jpg" style="max-width: 75%;" height="auto" alt="Awarde">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Best Innovation in the Industry Award (2022)</h5>
+              <p>This award recognizes the company's outstanding ability to innovate and introduce groundbreaking ideas,
+                technologies, or
+                products that have positively impacted the industry.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Image/award10.jpg" style="max-width: 75%;" height="auto" alt="Awarde">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Luminae as Most Dynamic Stage Presence (2023)</h5>
+              <p>This award is an award that recognizes individuals or groups who possess extraordinary energy and
+                charisma on stage, captivating
+                the audience with their electrifying performances.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel -->
+    </div>
+  </section>
+  <!-- Akhir Jumbotron -->
+
+  <!-- About -->
+  <section id="about">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+      <path fill="#f8f0e5" fill-opacity="1"
+        d="M0,128L120,149.3C240,171,480,213,720,208C960,203,1200,149,1320,122.7L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="col font-weight: bold pb-5">
+          <h1> About</h1>
+        </div>
+      </div>
+
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-md-4">
+          <img src="Image/logo web profile.png" height="300" alt="logo">
+        </div>
+        <div class="col-md-6 pt-4 text-start">
+          <div class="join">
+            <p>Spectacular works will continue to be created.</p>
+          </div>
+          <p><b>JS Town</b> is a company dedicated to helping Indonesian idols realize their potential and achieve
+            extraordinary
+            success.<br>
+          </p>
+          <a class="btn " href="./register.html" role="button">Join Us</a>
+        </div>
+      </div>
+
+      <div class="row justify-content-center pt-5">
+        <div class="col-md-9 text-center">
+          <h3> Vision </h3>
+          <p> To become a leading agency that transforms the entertainment industry by nurturing and advancing
+            Indonesian idols to a
+            global level, creating cultural icons that inspire and entertain millions of fans worldwide.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-9 text-center">
+          <h3> Mision </h3>
+          <ol>
+            <li> To build and develop the best potential of every idol we manage by providing professional training,
+              talent development,
+              and comprehensive mentoring.</li>
+            <li> To create unique, innovative, and relevant creative content to support the careers and expand the reach
+              of our idols in
+              the national and international markets.</li>
+            <li> To be a company that delivers positive influence and empowers our idols to act as cultural ambassadors
+              that strengthen
+              Indonesia's image on a global scale.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 150 1410 100">
+      <path fill="#f8f0e5" fill-opacity="1"
+        d="M0,160L80,176C160,192,320,224,480,240C640,256,800,256,960,256C1120,256,1280,256,1360,256L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir About -->
+
+  <!-- Achievement -->
+  <section id="achievement">
+    <div class="container">
+      <div class="row">
+        <div class="col font-weight: bold mb-5 mt-5">
+          <h1> Achievement </h1>
+        </div>
+      </div>
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2500">
+            <div class="row justify-content-center text-center">
+              <div class="col-md-2 m-5">
+                <div class="card">
+                  <img src="Image/award1.jpg" class="rounded-circle" alt="Best Entertainment Agency">
+                  <div class="card-body">
+                    <p class="card-title">Best Entertainment Agency (2019)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 m-3">
+                <div class="card">
+                  <img src="Image/award2.jpg" class="rounded-circle" alt="Top Talent Management Company">
+                  <div class="card-body">
+                    <p class="card-title">Top Talent Management Company (2021)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 m-5">
+                <div class="card">
+                  <img src="Image/award4.jpg" class="rounded-circle" alt="Best Stage Production and Design">
+                  <div class="card-body">
+                    <p class="card-title">Best Stage Production and Design (2022)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 m-3">
+                <div class="card">
+                  <img src="Image/award3.jpg" class="rounded-circle" alt="Best Stage Production and Design">
+                  <div class="card-body">
+                    <p class="card-title">Industry Leader in Fan Engagement (2023)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2500">
+            <div class="row justify-content-center text-center">
+              <div class="col-md-2 m-5">
+                <div class="card">
+                  <img src="Image/award5.jpg" class="rounded-circle" alt="Best Entertainment Agency">
+                  <div class="card-body">
+                    <p class="card-title">Excellence in Talent Management Award (2019)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 m-3">
+                <div class="card">
+                  <img src="Image/award7.jpg" class="rounded-circle" alt="Top Talent Management Company">
+                  <div class="card-body">
+                    <p class="card-title">Best Marketing and Promotion Award (2021)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 m-5">
+                <div class="card">
+                  <img src="Image/award8.jpg" class="rounded-circle" alt="Best Stage Production and Design">
+                  <div class="card-body">
+                    <p class="card-title">Creative Marketing Innovation Award (2018)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 m-3">
+                <div class="card">
+                  <img src="Image/award4.jpg" class="rounded-circle" alt="Best Stage Production and Design">
+                  <div class="card-body">
+                    <p class="card-title">Best Innovation in the Industry Award (2022)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </section>
+
+  <section id="top">
+    <!-- Deskripsi Top Artist -->
+    <div class="modal" id="aurora">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">Aurora Seraphina</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center">
+              <div class="col">
+                <img src="Image/Aurora.png" alt="Aurora" width="180">
+              </div>
+              <div class="col-7 m-0 p-0">
+                <p> <b>Date of Birth</b> : 10 January 1995 </p>
+                <p> <b>Group</b> : Luminae</p>
+                <p> <b>Nomination</b> : </p>
+                <ul>
+                  <li> Best New Female Artist (2019) </li>
+                  <li> Most Popular Solo Artist (2020) </li>
+                </ul>
+                <p> <b>Award</b> : </p>
+                <ul>
+                  <li> Popularity Award (2022) </li>
+                  <li> Best Fashion Style (2022) </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="nathaniel">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">Nathaniel Evander</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center">
+              <div class="col">
+                <img src="Image/Nataniel.png" alt="Aurora" width="180">
+              </div>
+              <div class="col-7 m-0 p-0">
+                <p> <b>Date of Birth</b> : 5 November 1994 </p>
+                <p> <b>Group</b> : Harmonix</p>
+                <p> <b>Nomination</b> : </p>
+                <ul>
+                  <li> Best Male Dancer (2020, 2022) </li>
+                </ul>
+                <p> <b>Award</b> : </p>
+                <ul>
+                  <li> Best Choreography (2020) </li>
+                  <li> Songwriter of the Year (2021) </li>
+                  <li> Best Performance Unit (2022) </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="adrian">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">Adrian Xavier</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center">
+              <div class="col">
+                <img src="Image/Nataniel.png" alt="Aurora" width="180">
+              </div>
+              <div class="col-7 m-0 p-0">
+                <p> <b>Date of Birth</b> : 28 February 1996 </p>
+                <p> <b>Group</b> : Harmonix</p>
+                <p> <b>Nomination</b> : </p>
+                <ul>
+                  <li> Best Visual (2019) </li>
+                  <li> Best Stage Presence (2020) </li>
+                </ul>
+                <p> <b>Award</b> : </p>
+                <ul>
+                  <li> Best Male Vocalist (2019, 2020) </li>
+                  <li> Best Male Rapper (2022) </li>
+                  <li> Best Performance Unit (2022) </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Deskripsi Top Artist -->
+
+
+    <!-- Top 3 Idol -->
+
+    <div class="TopIdol">
+      <div class="row text-center justify-content-center">
+        <div class="col font-weight: bold mb-3">
+          <h1> Top 3 Idol</h1>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-2 m-5">
+          <div class="card text-center" style="width: 15rem;">
+            <img src="Image/Aurora.png" alt="Aurora">
+            <div class="card-body">
+              <h5 class="card-title">Aurora Seraphina</h5>
+              <p> Best Fashion Style (2022) </p>
+              <div class="panel-footer">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#aurora" style="color: #102C57;">More Info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 mt-2 m-5">
+          <div class="card text-center" style="width: 15rem;">
+            <img src="Image/Nataniel.png" alt="Nathaniel">
+            <div class="card-body">
+              <h5 class="card-title">Nathaniel Evander</h5>
+              <p> Best Male Dancer (2020, 2022) </p>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#nathaniel" style="color: #102C57;">More Info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2 m-5">
+          <div class="card text-center" style="width: 15rem;">
+            <img src="Image/Nataniel.png" alt="Adrian">
+            <div class="card-body">
+              <h5 class="card-title">Adrian Xavier</h5>
+              <p> Best Male Rapper (2022) </p>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#adrian" style="color: #102C57;">More Info</a>
+            </div>
+          </div>
+        </div>
+        <!-- Akhir Top 3 Idol -->
+
+        <div class="justify-content-center text-center">
+          <p> Click the link to view the <a class="btn" style="background: none; color: #102C57; box-shadow: none;"
+              href="idol.html" role="button"><b><u>idol groups
+                </u></b></a>of JS Town.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Achievement -->
+
+
+  <!-- Contact -->
+  <section id="contact">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#f8f0e5" fill-opacity="1"
+        d="M0,160L120,138.7C240,117,480,75,720,74.7C960,75,1200,117,1320,138.7L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+      </path>
+    </svg>
+    <div class="contact" style="background-color: #f8f0e5">
+      <div class="row text-center">
+        <div class="col font-weight: bold">
+          <h1> Contact Person</h1>
+          <p> a/n Java Santika </p>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center pb-5">
+        <div class="col-1"> <a href="https://wa.me/628990875341"><i class="bi bi-whatsapp"
+              style="font-size: 2rem; color: #DAC0A3;"></i></a> </div>
+        <div class="col-1"> <a href="https://mail.google.com/java.santika.tik22@mhsw.pnj.ac.id"><i
+              class="bi bi-envelope" style="font-size: 2rem; color: #DAC0A3;"></i></a> </div>
+        <div class="col-1"> <a
+            href="https://www.instagram.com/wlf64_sbane?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+              class="bi bi-instagram" style="font-size: 2rem; color: #DAC0A3;"></i></a></div>
+        <p><br>Jl. Braga No.19, Cigadung, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40191 </p>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Contact -->
+
+  <!-- Footer -->
+  <footer class="text-center p-3" style="background-color: #EADBC8; font-size: 11px;">
+    <p class="m-0"> Created by Chintya Gustiani Putri | 2207431033</p>
+  </footer>
+  <!-- Akhir footer -->
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/popper.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
